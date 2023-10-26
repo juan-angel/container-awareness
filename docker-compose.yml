@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  java8:
+    build: java8
+    ports:
+      - 8080:8080
+    deploy:
+      resources:
+        limits:
+          cpus: 1
+          memory: 512M
+  java17:
+    build: java17
+    ports:
+      - 8081:8080
+    deploy:
+      resources:
+        limits:
+          cpus: 1
+          memory: 512M
