@@ -11,7 +11,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>org.jangel</groupId>
+	<groupId>com.ing.jangel</groupId>
 	<artifactId>java17</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>java17</name>
