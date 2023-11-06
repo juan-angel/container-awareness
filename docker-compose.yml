@@ -8,7 +8,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 1
+          cpus: '1'
           memory: 512M
   java17:
     build: java17
@@ -17,5 +17,5 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 1
+          cpus: '1'
           memory: 512M
